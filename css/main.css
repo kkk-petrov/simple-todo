@@ -17,7 +17,8 @@ body{
 .todo {
     display: flex;
     position: relative;
-    background-color: rgb(211, 209, 81);
+    background-color: rgba(214, 186, 29, 1);
+    /* background-color: rgb(211, 209, 81); */
 
     max-width: 700px;
     padding: 100px 50px 100px 50px;
@@ -109,7 +110,8 @@ body{
 }
 .todo__title {
     padding: 5px 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(214, 186, 29, 1);
+    /* background-color: rgb(255, 255, 255); */
     border-radius: 20px;
     font-size: 40px;
     font-weight: 700;
@@ -231,6 +233,10 @@ body{
         flex-wrap: nowrap;
         justify-content: center;
         align-items: flex-start;
+        padding: 10px;
+        list-style-type: none;
+        margin: 0;
+
     }
     .task{
         font-size: 10px;
@@ -246,10 +252,14 @@ body{
 
     }
     .todo{
-        display: block;
+        display: flex;
+        align-items: center;
         padding:0;
         text-align: center;
         padding-top: 10px;
+
+        padding: 10px;
+
     }
     .manual__item{
         padding: 2;
@@ -258,6 +268,7 @@ body{
     }
 
     .btn{
+
         font-size: 10px;
     }
     .todo__input {
@@ -268,7 +279,8 @@ body{
     .todo__title{
         font-size: 18px;
     }
-    .todo__manual{
+    .todo__container{
+        /* max-width: 80%; */
     }
     .manual__item{
         padding: 2px;
@@ -280,16 +292,20 @@ body{
         margin-bottom: 5px;
     }
     .todo__tasks{
-        width: 175px;
+        max-width: 205px;
 
-        text-align: center;
+        /* text-align: center; */
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: flex-start;
+        list-style-type: none;
+        margin: 0;
+
     }
     .task{
         font-size: 10px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
+        margin: 0;
     }
 }
