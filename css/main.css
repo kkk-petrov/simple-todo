@@ -153,6 +153,13 @@ body{
     background-color: rgba(214, 186, 29, 1);
 
 }
+.item-mob{
+    background-color: rgb(133, 0, 133);
+    display: none;
+
+
+}
+
 
 .manual__item span{
     font-weight: 700;
@@ -242,6 +249,9 @@ body{
         font-size: 10px;
         margin-left: 70px;
     }
+    .item-mob{
+        display:block;
+    }
 }
 
 @media (max-width: 320px) {
@@ -307,5 +317,8 @@ body{
         font-size: 10px;
         /* margin-left: 20px; */
         margin: 0;
+    }
+    .item-mob{
+        display:block;
     }
 }
