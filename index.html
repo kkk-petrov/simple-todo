@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Simple Todo</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="todo__help">
+            <div class="todo__title">Simple to-do list</div>
+            <div class="todo__manual">
+                <div class="manual__item item-add">
+                    <span id="adding">Добавление</span> Что-бы добавить элемент в список, воспользуйтесь полем и кнопкой.<br>
+                </div>
+                <div class="manual__item item-mark">
+                    <span id="marking">Отметить как выполненое</span> Что-бы отметить задание, как выполненое - щелкните ЛКМ по нему.<br>
+                </div>
+                <div class="manual__item item-rem">
+                    <span id="removing">Удаление</span> Что-бы удалить элемент из списка, дважды щелкните по нему ЛКМ.
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="todo">
+            
+            <div class="todo__container" id="container">
+                <div class="todo__content">
+                    <input class="todo__input" placeholder="Введите задание..." type="text" id="input">
+                    <button id="add" class="add-btn btn">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
